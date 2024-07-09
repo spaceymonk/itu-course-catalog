@@ -4,13 +4,18 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "start": "npx tsc && node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^20.14.10",
     "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.0"
   }
 }
